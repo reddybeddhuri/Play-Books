@@ -1,0 +1,8 @@
+---
+- name: file creation
+  hosts: all
+  tasks:
+  - name: test file creation
+  file:
+    path: "/opt/hello-world"
+    state: preasent
